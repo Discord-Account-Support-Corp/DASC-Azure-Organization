@@ -1,31 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <meta name="theme-color" content="#333"/>
-  <link rel="manifest" href="manifest.json"/>
-  <title>Azure DevOps PWA</title>
-  <style>
-    html, body {
-      margin: 0;
-      padding: 0;
-      height: 100%;
-      overflow: hidden;
-    }
-    iframe {
-      width: 100vw;
-      height: 100vh;
-      border: none;
-    }
-  </style>
+  <meta http-equiv="refresh" content="0; URL='https://dev.azure.com/discord-account-support-corporation/'" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="manifest" href="manifest.json" />
+  <meta name="theme-color" content="#333333" />
+  <title>Redirecting...</title>
 </head>
 <body>
-  <iframe src="https://dev.azure.com/discord-account-support-corporation/"></iframe>
-
+  <p>If you're not redirected automatically, <a href="https://dev.azure.com/discord-account-support-corporation/">click here</a>.</p>
   <script>
     if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('sw.js');
+      navigator.serviceWorker.register('sw.js').catch(console.error);
     }
   </script>
 </body>
